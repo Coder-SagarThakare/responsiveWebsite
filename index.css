@@ -1,4 +1,69 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    font-size: 14px;
+    font-weight: 500;
+}
 .logo {
     width: 185px;
     height: 33px;
 }
+.downsideArrow{
+    width: 6px;
+}
+.searchLogo{
+    width: 17px;
+}
+.getTouchBtn{
+ background-color: #C5DEF4;  
+ border-radius: 4px;
+}
+
+.heroTextDiv{
+    padding: 5%;
+
+}
+.COAheadline{
+    font-weight: 800;
+    font-size: 48px;
+    color: #071D49;
+    line-height: 57px;
+    letter-spacing: -1px;
+}
+.COAsubHead{
+    font-weight: 500;
+    color: #071D49;
+}
+.learnBtn{
+    background-color: #254AA0;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+
+.linearGradient {
+    background: linear-gradient(#3BBFB5,#254AA0);
+    color: white;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    padding: 5% 15% ;
+}
+.gradientTitle{
+    font-weight: 800;
+    font-size: 2rem;
+}
+/* .gradientSmallText */
+.gradientSmallText{
+font-size: 16px;
+font-weight: 400;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .getTouchBtn{
+        background-color: #254AA0;
+        color: white;
+    }
+  }
