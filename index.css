@@ -1,69 +1,128 @@
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
-.navbar{
-    font-size: 14px;
-    font-weight: 500;
+.margin0 {
+    margin : 0px;
+}
+.navbar {
+  font-size: 14px;
+  font-weight: 500;
 }
 .logo {
-    width: 185px;
-    height: 33px;
+  width: 185px;
+  height: 33px;
 }
-.downsideArrow{
-    width: 6px;
+.downsideArrow {
+  width: 6px;
 }
-.searchLogo{
-    width: 17px;
+.searchLogo {
+  width: 17px;
 }
-.getTouchBtn{
- background-color: #C5DEF4;  
- border-radius: 4px;
-}
-
-.heroTextDiv{
-    padding: 5%;
-
-}
-.COAheadline{
-    font-weight: 800;
-    font-size: 48px;
-    color: #071D49;
-    line-height: 57px;
-    letter-spacing: -1px;
-}
-.COAsubHead{
-    font-weight: 500;
-    color: #071D49;
-}
-.learnBtn{
-    background-color: #254AA0;
-    color: white;
-    font-size: 16px;
-    border-radius: 4px;
+.getTouchBtn {
+  background-color: #c5def4;
+  border-radius: 4px;
 }
 
+.heroTextDiv {
+  padding: 5%;
+}
+
+.COAheadline {
+  font-weight: 800;
+  font-size: 48px;
+  color: #071d49;
+  line-height: 57px;
+  letter-spacing: -1px;
+}
+.COAsubHead {
+  font-weight: 500;
+  color: #071d49;
+}
+.learnBtn {
+  background-color: #254aa0;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+}
 
 .linearGradient {
-    background: linear-gradient(#3BBFB5,#254AA0);
-    color: white;
-    border-top-right-radius: 150px;
-    border-bottom-left-radius: 150px;
-    padding: 5% 15% ;
+  background: linear-gradient(#3BBFB5 0%,#254AA0 81%);
+  color: white;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  padding: 5% 25% 5% 15%;
+  margin-top: -205px;
+  z-index: 1;
+  position: relative;
 }
-.gradientTitle{
-    font-weight: 800;
-    font-size: 2rem;
+.gradientTitle {
+  font-weight: 800;
+  font-size: 2rem;
 }
 /* .gradientSmallText */
-.gradientSmallText{
-font-size: 16px;
-font-weight: 400;
+.gradientSmallText {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
+.ourSolutions {
+  color: #071d49;
+  font-size: 2.5rem;
+}
 
-@media only screen and (max-width: 720px) {
-    .getTouchBtn{
-        background-color: #254AA0;
-        color: white;
-    }
+@media only screen and (max-width: 767px) {
+  .getTouchBtn {
+    background-color: #254aa0;
+    color: white;
   }
+  .COAheadline {
+    font-size: 2rem;
+    line-height: 120%;
+    /* padding-top: 0%; */
+    /* border: 1px solid #071d49; */
+  }
+  .linearGradient{
+    margin-top: -115px;
+    padding: 10% 15%;
+  }
+  .gradientTitle{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .gradientSmallText{
+    font-weight: 400;
+    font-size: 0.85rem;
+  }
+  .validationBtn{
+    background-color: #254AA0;
+    border-radius: 4px;
+    width: 245px;
+
+  }
+  .ourSolutions{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 374px) {
+    .linearGradient{
+        margin-top: -135px;
+        /* padding:5% ; */
+        border-top-right-radius : 50px;
+        border-bottom-left-radius : 50px;
+    }
+    .validationBtn{
+        background-color: #254AA0;
+        border-radius: 4px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        width: 245px;
+    }
+    .ourSolutions{
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+}

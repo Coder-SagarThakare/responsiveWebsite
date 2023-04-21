@@ -18,103 +18,120 @@
       rel="stylesheet"
     />
   </head>
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./index.css" />
   <body>
     <div class="">
-      
-
-      
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary px-2 ">
-        <div class="container-fluid justify-content-sm-between">
-        <!-- logo -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary px-2">
+        <div class="container-fluid justify-content-sm-between navContainer border border-danger">
+          <!-- logo -->
 
           <img class="logo" src="./images/Final logo 1.png" />
 
-          <!-- <div class="collapse navbar-collapse border border-success" id="navbarSupportedContent">
-            <div class="d-flex align-items-center">
+          <!-- navbar options -->
+          <div class="d-flex gap-4 d-none d-md-flex">
+            <div class="d-flex align-items-center gap-2">
               <span>Solutions</span>
-              <img src="./images/arrow.png" />
+              <img class="downsideArrow" src="./images/arrow.png" />
             </div>
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center gap-2">
               <span>Why TransPerfect</span>
-              <img src="./images/arrow.png" />
+              <img class="downsideArrow" src="./images/arrow.png" />
             </div>
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center gap-2">
               <span>Resources</span>
-              <img src="./images/arrow.png" />
+              <img class="downsideArrow" src="./images/arrow.png" />
             </div>
             <div class="d-flex align-items-center">
               <span>Demo</span>
-              <img src="./images/arrow.png" />
-            </div>
-          </div> -->
-          
-          <!-- navbar options -->
-          <div class="d-flex gap-4 d-none d-md-flex  ">
-            <div class="d-flex align-items-center gap-2">
-              <span >Solutions</span>
-              <img class="downsideArrow" src="./images/arrow.png" />
-            </div>
-            <div class="d-flex align-items-center gap-2">
-              <span >Why TransPerfect</span>
-              <img class="downsideArrow" src="./images/arrow.png" />
-            </div>
-            <div class="d-flex align-items-center gap-2">
-              <span >Resources</span>
-              <img class="downsideArrow" src="./images/arrow.png" />
-            </div>
-            <div class="d-flex align-items-center">
-              <span >Demo</span>
             </div>
           </div>
 
           <div class="d-flex justify-content-center align-items-center gap-3">
             <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <img class="searchLogo" src="./images/Vector.png" />
+            <button class="getTouchBtn border-0 px-3 py-2 d-none d-sm-block">
+              Get in touch
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- front view -->
+      <div class="">
+        <div class="d-sm-flex p-0">
+          <!-- COA desc -->
+          <div
+            class="heroTextDiv w-100 gap-2 w-sm-50 d-flex flex-column justify-content-center align-items-start justify-content-sm-start gap-sm-2 "
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <img class="searchLogo" src="./images/Vector.png"/>
-            <button class="getTouchBtn border-0 px-3 py-2 d-none d-sm-block ">Get in touch</button>
+            <span class="COAheadline">
+              Enable Superior Patient Data Quality with Centralized COA
+              Management
+            </span>
+            <p class="COAsubHead">
+              Choose TransPerfect's end-to-end solution for localization,
+              validation, library hosting, licensing support, and digital
+              migration of COAs.
+            </p>
+            <button class="learnBtn border-0 px-3 py-2">Learn More</button>
+          </div>
+
+          <!-- Front image -->
+          <div class=" w-100 w-sm-50 pt-5 pt-sm-0">
+            <img class="d-none d-md-block w-100" src="./images/Hero Image.png"  alt="image"/>
+            <img class="d-none d-sm-block d-md-none w-75 float-end" src="./images/Rectangle 203.png" alt="image"/>
+            <img class="w-100 d-sm-none" src="./images/Rectangle 203 mobView.png" alt="image"/>
+          </div>
+        </div>
+
+        <!-- linear gradient -->
+        <div class="w-100 linearGradient">
+          <p class="gradientTitle">
+            Minimize Time-to-Market, Mitigate Risk, and Ensure Regulatory
+            Compliance in Global Studies
+          </p>
+          <p class="gradientSmallText">
+            Regulatory authorities and patient advocates are demanding more
+            visibility than ever before into patient engagement and safety
+            measures. Sponsors are tasked with improving their data collection
+            strategies while navigating the ever-changing landscape of
+            compliance.
+          </p>
+
+          <p class="gradientSmallText margin0">
+            TransPerfect helps sponsors streamline this complexity with
+            AI-powered eCOA migration and data collection. These COA solutions
+            improve ease, speed, compliance, and quality of patient data
+            reporting. Meet the next generation of clinical data integrity and
+            patient safety.
+          </p>
+        </div>
+      </div>
+
+      <div class="p-3 ">
+        <div class=" d-flex flex-wrap flex-sm-nowrap justify-content-sm-around align-items-start gap-2 justify-content-sm-between align-items-sm-center">
+
+          <span class="ourSolutions">Our Solutions</span>
+
+          <!-- <div class="validationBtn text-light d-flex flex-row  justify-content-evenly align-items-center ">   -->
+          <div class="validationBtn d-flex text-light text-center">  
+            <span class="">Translation and COA Linguistic Validation</span>
+            <img class="" src="./images/downsideArrow-blue.png"/>
           </div>
 
         </div>
 
-      </nav>
-
-
-      <!-- front view -->
-      <div class="d-flex">
-
-        <!-- COA desc -->
-        <div class="heroTextDiv w-50 d-flex flex-column justify-content-center align-items-start  ">
-          <p class="COAheadline">Enable Superior Patient Data Quality with Centralized COA Management</p>
-          <p class="COAsubHead">Choose TransPerfect's end-to-end solution for localization, validation, library hosting, licensing support, and digital migration of COAs.</p>
-          <button class="learnBtn border-0 px-3 py-2">Learn More</button>
-        </div>
-
-        <!-- Front image -->
-        <div class="w-50  pt-5">
-          <img class="w-100 " src="./images/Hero Image.png"/>
-        </div>   
       </div>
-
-       <!-- linear gradient -->
-       <div class="w-100 linearGradient ">
-        <p class="gradientTitle">Minimize Time-to-Market, Mitigate Risk, and Ensure Regulatory Compliance in Global Studies</p>
-        <p class="gradientSmallText">Regulatory authorities and patient advocates are demanding more visibility than ever before into patient engagement and safety measures. Sponsors are tasked with improving their data collection strategies while navigating the ever-changing landscape of compliance. </p>
-
-        <p class="gradientSmallText"> TransPerfect helps sponsors streamline this complexity with AI-powered eCOA migration and data collection. These COA solutions improve ease, speed, compliance, and quality of patient data reporting. Meet the next generation of clinical data integrity and patient safety. 
-          </p>
-       </div>
-
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
