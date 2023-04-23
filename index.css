@@ -25,7 +25,7 @@ body {
 }
 
 .heroTextDiv {
-  padding: 5%;
+  padding: 5% ;
 }
 
 .COAheadline {
@@ -51,8 +51,8 @@ body {
   color: white;
   border-top-right-radius: 150px;
   border-bottom-left-radius: 150px;
-  padding: 5% 25% 5% 15%;
-  margin-top: -205px;
+  padding: 5% 20% 5% 15%;
+  margin-top: -180px;
   z-index: 1;
   position: relative;
 }
@@ -71,10 +71,16 @@ body {
   font-size: 2.5rem;
 }
 
-@media only screen and (max-width: 767px) {
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+
   .getTouchBtn {
     background-color: #254aa0;
     color: white;
+  }
+  .heroTextDiv{
+    padding: 5%;
+    padding-right: 6%;
   }
   .COAheadline {
     font-size: 2rem;
@@ -85,6 +91,8 @@ body {
   .linearGradient{
     margin-top: -115px;
     padding: 10% 15%;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
   }
   .gradientTitle{
     font-weight: 700;
@@ -107,7 +115,11 @@ body {
 
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 375px) {
+    .heroTextDiv{
+        padding-right: 8%;
+        border: 2px solid green;
+    }
     .linearGradient{
         margin-top: -135px;
         /* padding:5% ; */
