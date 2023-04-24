@@ -2,8 +2,12 @@ body {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
+.custom-color {
+  /* color: red ; */
+  color: #071d49;
+}
 .margin0 {
-    margin : 0px;
+  margin: 0px;
 }
 .navbar {
   font-size: 14px;
@@ -25,7 +29,7 @@ body {
 }
 
 .heroTextDiv {
-  padding: 5% ;
+  padding: 5%;
 }
 
 .COAheadline {
@@ -47,7 +51,7 @@ body {
 }
 
 .linearGradient {
-  background: linear-gradient(#3BBFB5 0%,#254AA0 81%);
+  background: linear-gradient(#3bbfb5 0%, #254aa0 81%);
   color: white;
   border-top-right-radius: 150px;
   border-bottom-left-radius: 150px;
@@ -69,72 +73,191 @@ body {
 .ourSolutions {
   color: #071d49;
   font-size: 2.5rem;
+  font-weight: 700;
 }
 
-/* ----------------------------------------------------------------------------------------------- */
-@media only screen and (max-width: 768px) {
+.links-div {
+  border-left: 1px solid #6cace4;
+  font-size: 1rem;
+}
+.link {
+  font-weight: 500;
+  color: #254aa0;
+}
+.link:hover {
+  /* background-color: #071d49 !important; */
+  border-left: 5px solid #6cace4;
+  color: black;
+}
 
+/* right column */
+.solution-img-div {
+  background-image: linear-gradient(#3bbfb5, #99cc33, #6cace4);
+  border-bottom-right-radius: 100%;
+  border-top-left-radius: 100px;
+  padding-left: 2%;
+}
+
+.assessment-heading {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.assessment-desc,
+.assessment-list,
+list {
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.contactus-btn,.access-btn {
+  background-color: #254aa0;
+}
+.checklist{
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #071D49;
+}
+
+/* page3  */
+
+.page3-container {
+  background-image: linear-gradient(#254aa0, #7355c0);
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding-top: 10%;
+}
+.page-title-div {
+  padding-left: 7.5%;
+}
+.page3-title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.page3-desc {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.page3-subtitle-div {
+  padding:0% 10% 0% 15%;
+  /* border: 1px solid white; */
+}
+.page3-subtitle {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.page3-subtitle-desc{
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.page3-subtitle-4{
+  border-bottom: 2px solid #ff50f0;
+}
+
+/* page - 4 */
+.page4-container{
+  background-image: linear-gradient(#E2EFFA,#DCF3F0);
+  padding: 10%;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.innovation{
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #071D49;
+}
+.hollow-num{
+	font-family: sans-serif;  
+  font-size: 5rem ;
+	font-weight: 800;
+  color:  #071D49;
+	-webkit-text-fill-color: #e0f0f7; /*Will override color (regardless of order) */
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-size-adjust: 10px;
+}
+.devider-line{
+  border: 2px solid #bcddd9;
+}
+.hollow-num-desc{
+  font-weight: 600;
+  font-size: 1.122rem;
+  color: #071D49;
+}
+
+
+/* ==================================================================================================== */
+@media only screen and (max-width: 768px) {
   .getTouchBtn {
     background-color: #254aa0;
     color: white;
   }
-  .heroTextDiv{
+  .heroTextDiv {
     padding: 5%;
     padding-right: 6%;
   }
   .COAheadline {
     font-size: 2rem;
     line-height: 120%;
-    /* padding-top: 0%; */
-    /* border: 1px solid #071d49; */
   }
-  .linearGradient{
+  .linearGradient {
     margin-top: -115px;
     padding: 10% 15%;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
   }
-  .gradientTitle{
+  .gradientTitle {
     font-weight: 700;
     font-size: 1.5rem;
   }
-  .gradientSmallText{
+  .gradientSmallText {
     font-weight: 400;
     font-size: 0.85rem;
   }
-  .validationBtn{
-    background-color: #254AA0;
+  .validationBtn {
+    background-color: #254aa0;
     border-radius: 4px;
     width: 245px;
-
   }
-  .ourSolutions{
+  .ourSolutions {
     font-weight: 700;
     font-size: 1.5rem;
-  }
+  } 
 
+
+  /* page3 */
+  .page3-container{
+    padding-top: 15%;
+  }
+  .page3-title{
+    font-size: 1.5rem;
+  }
+  .page3-desc{
+    /* padding-right: 40%; */
+  }
+  .page3-subtitle-div{
+    padding:2% 10%;
+  }
 }
 
 @media only screen and (max-width: 375px) {
-    .heroTextDiv{
-        padding-right: 8%;
-        border: 2px solid green;
-    }
-    .linearGradient{
-        margin-top: -135px;
-        /* padding:5% ; */
-        border-top-right-radius : 50px;
-        border-bottom-left-radius : 50px;
-    }
-    .validationBtn{
-        background-color: #254AA0;
-        border-radius: 4px;
-        font-size: 0.85rem;
-        font-weight: 500;
-        width: 245px;
-    }
-    .ourSolutions{
-        font-weight: 700;
-        font-size: 1.5rem;
-    }
+  .heroTextDiv {
+    padding-right: 8%;
+    /* border: 2px solid green; */
+  }
+  .linearGradient {
+    margin-top: -135px;
+    /* padding:5% ; */
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .validationBtn {
+    background-color: #254aa0;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    width: 245px;
+  }
+  .ourSolutions {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
 }
