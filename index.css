@@ -225,7 +225,14 @@ list {
   font-size: 1.115rem;
 }
 
-
+.certifications-img-div {
+width: 30%;
+border: 1px solid red;
+}
+.certifications-img{
+  /* width: 30%; */
+  border: 1px solid red;
+}
 
 
 
