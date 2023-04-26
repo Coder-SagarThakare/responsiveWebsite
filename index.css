@@ -233,12 +233,74 @@ border: 1px solid red;
   /* width: 30%; */
   border: 1px solid red;
 }
+.success-stories-btn{
+  background-color: #254AA0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 4px !important;
+}
 
 
+.organizations-headline{
+  font-weight: 800;
+  font-size: 2rem;
+}
+.organizations-subText{
+  font-weight: 400;
+  font-size: 0.875rem;  
+}
 
+/* news section */
+.news-headline{
+  font-weight: 800;
+  font-size: 2rem;
+}
+.news-subtext{
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #666666;
+  width: 60%;
+}
 
+.card-heading{
+ font-weight: 700;   
+ font-size: 1.5rem;
+}
 
+.card {
+  background-color:  #EBF1F7;
+  border-top-left-radius: 150px;
+}
+.badge {
+  background-image: linear-gradient(#254AA0,#7356C0);
+}
+.AMSTERDAM{
+  font-weight: 600;   
+  font-size: 0.875rem;
+}
 
+.badge-subcard1, .badge-subcard2   {
+  background-image: linear-gradient(#E2EFFA,#DCF3F0);
+  font-weight: 500;
+  font-size: 0.875rem;
+  /* border: 1px solid #071D49; */
+}
+.badge-subcard2{
+  background-image: linear-gradient(#E9E2FC,#FBE7F0);
+}
+
+.subcard-headline{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.subcard-desc{
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1.1rem;
+}
+.subcard-img-div, .subcard-desc-div{
+  width: 100% !important;
+}
 
 
 
@@ -323,6 +385,45 @@ border: 1px solid red;
   .page5-list{
     font-size: 1rem;
   }
+  
+  /* organizations and certifications */
+  .certifications,.organizations-headline{
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 75% !important; 
+  }
+  .certifications-desc,.organizations-subText{
+    width: 75% !important;
+    font-weight: 500;
+    font-size: 0.875rem;
+  }
+  .organizations-subText{
+    width: 80% !important;
+  }
+
+  .organization-img{
+    width: 35% !important;
+  }
+
+  .card-img-div, .card-desc{
+    width: 100% !important;
+   }
+  .subcard-img-div, .subcard-desc-div{
+    width: 100% !important;
+  }
+
+  .subcard-headline{
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  .news-headline{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .news-subtext{
+    width: 100% !important;
+  }
+  
 }
 
 
@@ -375,7 +476,44 @@ border: 1px solid red;
 
     background-image: linear-gradient(transparent,rgb(255, 255, 255));
     position: absolute  ;
-    z-index: 2; 
-    /* top: 0px; */
+    z-index: 2;
   }
+  .organizations-container{
+    padding: 1% !important;
+  }
+
+  .certifications-headline,.organizations-headline{ 
+    font-weight: 700;
+    font-size: 1.4rem;
+    width: 100% !important;
+  }
+  .organizations-subText,.certifications-desc{
+    font-weight: 400;
+    text-align: center;
+    margin: 5% !important;
+    width: 80% !important;
+  }
+  .certifications-img-row1, .certifications-img-row2 , .organization-img-row1, .organization-img-row2 {
+    width: 100% !important;
+  }
+  .organization-img {
+    width: 25% !important;
+  }
+
+  /* news section */
+
+ 
+  
+
+  
+  /* news section */
+  .card-heading{
+    font-size: 1.25rem;
+   }
+   .card-img-div, .card-desc{
+    width: 100% !important;
+   }
+  
+
+
 }
