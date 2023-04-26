@@ -303,6 +303,23 @@ border: 1px solid red;
 }
 
 
+/* footerrrrrrrrrrrrrrrrrrrrrr */
+.contactus-container{
+  background-image: linear-gradient(#99CC33,#3BBFB5);
+  
+}
+.contactus-txt{
+  font-weight: 700; 
+  font-size: 1.25rem;
+}
+.getintouch-btn{
+  background-color: #254aa0;
+}
+.contactus-desc{
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
 
 
 
