@@ -47,7 +47,7 @@ body {
   font-weight: 800;
   font-size: 48px;
   color: #071d49;
-  line-height: 57px;
+  line-height: 3.5rem;
   letter-spacing: -1px;
 }
 .COAsubHead {
@@ -207,9 +207,13 @@ list {
 }
 .page5-list {
   font-weight: 400;
-  font-size: 1.1rem;
-  list-style: none;
+  /* font-size: 1.1rem !important; */
+  list-style: none; 
   color: #071d49;
+  height: 370px;
+}
+small{
+  font-size: 16px;
 }
 
 /* .certifications and membership  */
@@ -369,6 +373,20 @@ list {
   background-color: #071d49;
 }
 
+/* Page 5 Css New  */
+
+.page5-image-block {
+
+  width: 350px;
+  /* height: 50px; */
+  object-fit: cover;
+}
+
+.page5-image-block > image {
+  width: 100% !important;
+  height: 100% !important;
+} 
+
 /* ==================================================================================================== */
 @media only screen and (max-width: 768px) {
   .getTouchBtn {
@@ -526,6 +544,9 @@ list {
     font-weight: 700;
     font-size: 1.5rem;
   }
+  .page4-container {
+    padding-right: 0%;
+  }
 
   .page5-container {
     margin-top: -130px;
@@ -570,6 +591,10 @@ list {
     margin: 5% !important;
     width: 80% !important;
   }
+  .certifications-img-container{
+    flex-direction: column !important;
+  }
+
   .certifications-img-row1,
   .certifications-img-row2,
   .organization-img-row1,
