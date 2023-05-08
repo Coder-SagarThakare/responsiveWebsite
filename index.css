@@ -397,6 +397,12 @@ list {
 .footer-container {
   background-color: #071d49;
 }
+.email-div{
+  width: 50%;
+}
+.input-field {
+  width: 65% ;
+}
 
 
 /* ==================================================================================================== */
@@ -547,6 +553,9 @@ list {
   }
   .contactus-txt {
     font-size: 1.25rem;
+  }
+  .email-div{
+    width: 100%;
   }
   .input-field {
     width: 75% !important;
@@ -738,12 +747,5 @@ list {
 
 
 
-@media only screen and (max-width: 768px) {
-  
-  }
-  
-  /* Normal: */
-  
-  
   
   
